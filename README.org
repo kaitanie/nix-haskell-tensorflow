@@ -1,0 +1,23 @@
+* Example Nix + Haskell + Tensorflow project
+
+This project is an example of how to use Nix package manager to build Haskell
+package which uses Tensorflow.
+
+The skeleton of the repository layout and most of the Nix expressions are taken
+from the rather excellent Nix + Haskell example projct by Sukant Hajra
+https://github.com/shajra/example-nix
+
+* Usage
+
+** Building
+
+   1. git clone git://github.com/kaitanie/nix-haskell-tensorflow.git
+   2. cd nix-haskell-tensorflow
+   3. nix-build
+   4. ./result/bin/my-app
+
+** Shell environment
+
+   You can start the shell environment with command `nix-shell`.
+
+
